@@ -53,14 +53,14 @@ export const t2Rows = [
   {
     id: 1,
     Environment: "DEV",
-    ServerType: "Cloud",
+    ServerType: "Partner-Services",
     URL: "https://google.com",
     Status: "UP",
   },
   {
     id: 2,
-    Environment: "QA",
-    ServerType: "On-premise",
+    Environment: "UAT",
+    ServerType: "Partner-Services",
     URL: "https://google.com",
     Status: "DOWN",
   },
@@ -69,14 +69,14 @@ export const t2Rows = [
 export const t3Rows = [
   {
     id: 1,
-    Environment: "DEV",
+    Environment: "TEST",
     ServerType: "Cloud",
     URL: "https://google.com",
     Status: "UP",
   },
   {
     id: 2,
-    Environment: "QA",
+    Environment: "PROD",
     ServerType: "On-premise",
     URL: "https://google.com",
     Status: "DOWN",
@@ -86,15 +86,15 @@ export const t3Rows = [
 export const t4Rows = [
   {
     id: 1,
-    Environment: "DEV",
-    ServerType: "Cloud",
+    Environment: "TEST",
+    ServerType: "Website",
     URL: "https://google.com",
     Status: "UP",
   },
   {
     id: 2,
-    Environment: "QA",
-    ServerType: "On-premise",
+    Environment: "PROD",
+    ServerType: "Website",
     URL: "https://google.com",
     Status: "DOWN",
   },
